@@ -108,14 +108,13 @@ const ResumeSection = () => {
             {/* Left Column: Education and Experience (8 cols) */}
             <div className="md:col-span-8 space-y-8">
               
-              {/* SECTION: EXPERIENCE / PROJECTS */}
+              {/* SECTION: PROJECTS */}
               <div className="space-y-4">
                 <h4 className="text-xs font-bold tracking-widest text-brand-purple uppercase flex items-center gap-2 font-mono">
                   <Briefcase size={14} />
-                  <span>PROJECTS & HACKATHONS</span>
+                  <span>PROJECTS</span>
                 </h4>
                 <div className="space-y-6">
-                  
                   {/* Project 1 */}
                   <div className="space-y-2">
                     <div className="flex justify-between items-start text-xs font-semibold">
@@ -128,7 +127,16 @@ const ResumeSection = () => {
                       <li>Implemented real-time email analysis with URL scanning, spam classification, and threat detection to improve cybersecurity awareness.</li>
                     </ul>
                   </div>
+                </div>
+              </div>
 
+              {/* SECTION: HACKATHONS */}
+              <div className="space-y-4">
+                <h4 className="text-xs font-bold tracking-widest text-brand-purple uppercase flex items-center gap-2 font-mono">
+                  <Award size={14} />
+                  <span>HACKATHONS</span>
+                </h4>
+                <div className="space-y-6">
                   {/* Participation */}
                   <div className="space-y-2">
                     <div className="flex justify-between items-start text-xs font-semibold">
@@ -140,7 +148,6 @@ const ResumeSection = () => {
                       Collaborated in intensive team environments during Smart India Hackathon 2023 and Smart India Hackathon 2025, designing architecture layouts and coding real-time algorithms to resolve national-level issues.
                     </p>
                   </div>
-
                 </div>
               </div>
 
